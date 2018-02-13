@@ -4,6 +4,7 @@
 <head>
 
 	<meta charset="utf-8">
+	<base href="/">
 
 	<title>OptimizedHTML 4</title>
 	<meta name="description" content="">
@@ -26,453 +27,486 @@
 </head>
 
 <body>
+	<div id="my-page">
+		<div id="my-header">
+			<header class="header">
+				<div class="container header__top-line">
+					<div class="row align-items-center">
+						<div class="col col-lg-3">
+							<a class="logo" href="#"><img src="img/logo.png" alt="Ремонт для тебя"></a>	
+						</div>
+						<div class="col-lg-3 d-none d-lg-block">
+							<a href="#" data-izimodal-open="#order_measure" data-izimodal-transitionin="fadeInDown" class="button button-block"><i class="fa fa-calculator"></i> Заказать замеры</a>
+						</div>
+						<div class="col col-lg-3 d-none d-md-block">
+							<p class="header__address"><i class="fa fa-map-marker"></i> город Москва, 91000 <br>Перова Поля 9, корпус 2</p>
+						</div>
+						<div class="col col-lg-3 d-none d-sm-block">
+							<p class="header__phone">
+								<i class="fa fa-mobile"></i> +7 (495) 999-99-99
+								<a class="header__backcall" href="#">Заказать обратный звонок</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="menu">
+					<nav class="mobile-menu" id="menu">
+						<ul>
+							<li class="active"><a href="#">О компании</a></li>
+							<li><a href="#">Ремонт <i class="fa fa-chevron-down"></i></a></li>
+							<li><a href="#">Строительство <i class="fa fa-chevron-down"></i></a></li>
+							<li><a href="#">Водоснабжение</a></li>
+							<li><a href="#">Гарантия</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</nav>
+					<nav class="main-menu">
+						<div class="container">
+							<div class="row">
+								<ul class="d-none d-lg-block">
+									<li class="active"><a href="#">О компании</a></li>
+									<li><a href="#">Ремонт <i class="fa fa-chevron-down"></i></a></li>
+									<li><a href="#">Строительство <i class="fa fa-chevron-down"></i></a></li>
+									<li><a href="#">Водоснабжение</a></li>
+									<li><a href="#">Гарантия</a></li>
+									<li><a href="#">Контакты</a></li>
+								</ul>
+							</div>
+							
+						</div>
+					</nav>
+					<nav class="second-menu">
+						<div class="container">
+							<div class="row align-items-center">
+								<a href="#menu" class="d-lg-none hamburger hamburger--collapse">
+								  <span class="hamburger-box">
+								    <span class="hamburger-inner"></span>
+								  </span>
+								</a>
+								<p class="header__phone">
+									<i class="fa fa-mobile"></i> +7 (495) 999-99-99
+								</p>
+								<ul class="d-none d-md-block">
+									<li><a href="#"><i class="fa fa-calculator"></i> Калькулятор</a></li>
+									<li><a href="#"><i class="fa fa-video-camera"></i> Видеонаблюдение</a></li>
+									<li><a href="#"><i class="fa fa-picture-o"></i> Галерея</a></li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</div>
+				<div class="slideshow">
+					<div class="owl-carousel slideshow__owl-carousel">
+						
+						<div class="slideshow__item" style="background-image: url(img/slide/1.png)">
+							<div class="slideshow__composition">
+								<div class="container">
+									<div class="row">
+										<div class="col-lg-8">
+											<h2 class="slideshow__title">Делаем ремонт от <span class="color-accent">А</span> до <span class="color-accent">Я</span></h2>
+											<ul class="list-check-circle">
+												<li>Комплекс демонтажных работ</li>
+												<li>Снабжение необходимым материалом</li>
+												<li>Выравнивание поверхности стен, потолков и полов</li>
+												<li>Замена электросистемы</li>
+												<li>Замена водопроводной и канализационной систем</li>
+											</ul>
 
-	<header class="header">
-		<div class="container header__top-line">
-			<div class="row align-items-center">
-				<div class="col-md-3">
-					<a class="logo" href="#"><img src="img/logo.png" alt="Ремонт для тебя"></a>	
+											<button class="button"><i class="fa fa-calculator"></i> Заказать замеры</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="slideshow__item" style="background-image: url(img/slide/3.png)">
+							<div class="slideshow__composition">
+								<div class="container">
+									<div class="row">
+										<div class="col-sm-8">
+											<h2 class="slideshow__title">ремонт под <span class="color-accent">ключ</span> качественно</h2>
+											<ul class="list-check">
+												<li>Комплекс демонтажных работ</li>
+												<li>Снабжение необходимым материалом</li>
+												<li>Выравнивание поверхности стен, потолков и полов</li>
+												<li>Замена электросистемы</li>
+												<li>Замена водопроводной и канализационной систем</li>
+											</ul>
+
+											<button class="button"><i class="fa fa-calculator"></i> Заказать замеры</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="slideshow__item" style="background-image: url(img/slide/2.png)">
+							<div class="slideshow__composition">
+								<div class="container">
+									<div class="row">
+										<div class="col-sm-8">
+											<h2 class="slideshow__title">Уют и комфорт в <span class="color-accent">доме</span></h2>
+											<ul class="list-check">
+												<li>Комплекс демонтажных работ</li>
+												<li>Снабжение необходимым материалом</li>
+												<li>Выравнивание поверхности стен, потолков и полов</li>
+												<li>Замена электросистемы</li>
+												<li>Замена водопроводной и канализационной систем</li>
+											</ul>
+
+											<button class="button"><i class="fa fa-calculator"></i> Заказать замеры</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
 				</div>
-				<div class="col-md-3">
-					<a href="#" data-izimodal-open="#order_measure" data-izimodal-transitionin="fadeInDown" class="button button-block"><i class="fa fa-calculator"></i> Заказать замеры</a>
-				</div>
-				<div class="col-md-3">
-					<p class="header__address"><i class="fa fa-map-marker"></i> город Москва, 91000 <br>Перова Поля 9, корпус 2</p>
-				</div>
-				<div class="col-md-3">
-					<p class="header__phone">
-						<i class="fa fa-mobile"></i> +7 (495) 999-99-99
-						<a class="header__backcall" href="#">Заказать обратный звонок</a>
-					</p>
-				</div>
-			</div>
+			</header>
 		</div>
-		<div class="menu">
-				<nav class="main-menu">
-					<div class="container">
+      	<div id="my-content">
+      		<section class="company-figures section">
+				<div class="container">
+					<div class="row">
+						<div class="col-6 col-md-3">
+							<span class="company-figures__figure">10</span> <span class="company-figures__title">лет</span> <br> успешной работы
+						</div>
+						<div class="col-6 col-md-3">
+							<span class="company-figures__figure">150</span> 
+							<span class="company-figures__title">обьектов</span> <br> более 150 выполненых обьектов
+						</div>
+						<div class="col-6 col-md-3">
+							<span class="company-figures__figure">80</span> 
+							<span class="company-figures__title">парнеров</span> <br> более 80 партнеров и поставщиков
+						</div>
+						<div class="col-6 col-md-3">
+							<span class="company-figures__figure">250 000</span> 
+							<span class="company-figures__title">кв.м.</span> <br> выполнено отделочных работ
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="container our-company section section_inverse">
+				<div class="section__title"><h2>Наша компания <p><span><i class="fa fa-square"></i></span></p></h2> </div>
+				<div class="our-company__composition">
+					<div class="row">
+						<div class="col offset-lg-5">
+							<p class="our-company__title">Remont msk <br> <span>Ремонт и строительство с нуля</span></p>
+							<p>Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</p>
+							<div class="our-company__block-info">
+								<div class="our-company__item">
+									<div class="our-company__icon" style="background-image: url(img/icon/1.png)"></div>
+									<p class="our-company__item-title">Строительство с нуля</p>
+									<p>Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул.</p>
+								</div>
+
+								<div class="our-company__item">
+									<div class="our-company__icon" style="background-image: url(img/icon/2.png)"></div>
+									<p class="our-company__item-title">Планировка квартир</p>
+									<p>Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул.</p>
+								</div>
+
+								<div class="our-company__item">
+									<div class="our-company__icon" style="background-image: url(img/icon/3.png)"></div>
+									<p class="our-company__item-title">Дизайн интерьера</p>
+									<p>Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="gallery section">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="gallery__title-img" style="background-image: url(img/gallery/title_img.jpg);">
+								<div class="gallery__triangle">
+									<i class="fa fa-image"></i>
+								</div>
+								<div class="gallery__play popup-gallery">
+									<a href="img/gallery/001.jpg" title="Картинка номер 1" class="gallery__open">
+										<i class="fa fa-play-circle"></i>
+										<p>Галерея</p>
+									</a>
+
+									<div class="gallery__container">
+										<a href="img/gallery/002.jpg" title="Картинка номер 2"></a>
+										<a href="img/gallery/003.jpg" title="Картинка номер 3"></a>
+										<a href="img/gallery/004.jpg" title="Картинка номер 4"></a>
+			
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<p class="gallery__title">Современный ремонт и строительство - это нашь профиль</p>
+							<p>За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).</p>
+							<ul class="list-check">
+								<li>Работаем без предоплаты</li>
+								<li>Бесплатный выезд замерщика</li>
+								<li>Многолетний опыт работы</li>
+							</ul>
+							<div class="row">
+								<div class="col-12 col-md-6"><button class="button button-white button-block"><i class="fa fa-calculator"></i> Обратный звонок</button></div>
+								<div class="col-12 col-md-6"><button class="button button-outline button-block"><i class="fa fa-calculator"></i> Видеоотзывы</button></div>
+							</div>
+							
+							
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="s-callback section section_inverse">
+				<div class="container">
+					<div class="row callback">
+						<div class="col-md-7 callback__form-block">
+							<h3 class="callback__title">Бесплатная консультация и выезд мастера</h3>
+							<p class="callback__caption">Мы свяжемся с вами в течении 1 часа</p>
+							<form action="#" class="callback__form">
+								<input type="text" class="callback__your-name input" placeholder="Ваше имя">
+								<input type="text" class="callback__your-phone input" placeholder="Ваш номер телефона">
+								<input type="submit" class="callback__button button button-white" value="Обратный звонок"> 
+							</form>
+						</div>
+						<div class="col-md-5 callback__info-block d-none d-sm-block" >
+							<div class="callback__item">
+								<img src="img/callback_icon/27_7.png" alt="" class="callback__icon">
+								Работаем без выходных 7 дней в неделю
+							</div>
+
+							<div class="callback__item">
+								<img src="img/callback_icon/worker.png" alt="" class="callback__icon">
+								У нас работают опытные бригады мастеров
+							</div>
+
+							<div class="callback__item">
+								<img src="img/callback_icon/rule.png" alt="" class="callback__icon">
+								Бесплатный выезд для замеров на обьект
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="our-object section">
+				<div class="section__title"><h2>Наша компания <p><span><i class="fa fa-square"></i></span></p></h2></div>
+				<div class="container">
+					<div class="row">
+						<div class="owl-carousel our-object__carousel">
+							<div class="our-object__item">
+								<div class="our-object__item-title">Строительство</div>
+								<div class="our-object__address">Коттедж в Москвоской обл.</div>
+								<div class="our-object__img" style="background-image: url(img/our_object/1.jpg);"></div>
+								<ul class="our-object__list">
+									<li><span class="our-object__list-title">Цена:</span> 3 000 000 руб.</li>
+									<li><span class="our-object__list-title">Площадь:</span> 350 м2</li>
+									<li><span class="our-object__list-title">Время:</span> 22 недели</li>
+								</ul>
+								<a href="#" class="button button-block"><i class="fa fa-search"></i> Подробнее</a>
+							</div>
+
+							<div class="our-object__item">
+								<div class="our-object__item-title">Ремонт</div>
+								<div class="our-object__address">Квартира в г. Москва</div>
+								<div class="our-object__img" style="background-image: url(img/our_object/2.jpg);"></div>
+								<ul class="our-object__list">
+									<li><span class="our-object__list-title">Цена:</span> 700 000 руб.</li>
+									<li><span class="our-object__list-title">Площадь:</span> 90 м2</li>
+									<li><span class="our-object__list-title">Время:</span> 4 недели</li>
+								</ul>
+								<a href="#" class="button button-block"><i class="fa fa-search"></i> Подробнее</a>
+							</div>
+
+							<div class="our-object__item">
+								<div class="our-object__item-title">Строительство</div>
+								<div class="our-object__address">Коттедж в Москвоской обл.</div>
+								<div class="our-object__img" style="background-image: url(img/our_object/3.jpg);"></div>
+								<ul class="our-object__list">
+									<li><span class="our-object__list-title">Цена:</span> 2 400 000 руб.</li>
+									<li><span class="our-object__list-title">Площадь:</span> 300 м2</li>
+									<li><span class="our-object__list-title">Время:</span> 19 недели</li>
+								</ul>
+								<a href="#" class="button button-block"><i class="fa fa-search"></i> Подробнее</a>
+							</div>
+
+							<div class="our-object__item">
+								<div class="our-object__item-title">Ремонт</div>
+								<div class="our-object__address">Квартира в г. Москва</div>
+								<div class="our-object__img" style="background-image: url(img/our_object/2.jpg);"></div>
+								<ul class="our-object__list">
+									<li><span class="our-object__list-title">Цена:</span> 700 000 руб.</li>
+									<li><span class="our-object__list-title">Площадь:</span> 90 м2</li>
+									<li><span class="our-object__list-title">Время:</span> 4 недели</li>
+								</ul>
+								<a href="#" class="button button-block"><i class="fa fa-search"></i> Подробнее</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section section_inverse">
+				<div class="section__title"><h2>Новости и статьи <p><span><i class="fa fa-square"></i></span></p></h2></div>
+				<div class="container">
+					<div class="news">
 						<div class="row">
-							<ul>
-								<li class="active"><a href="#">О компании</a></li>
-								<li><a href="#">Ремонт <i class="fa fa-chevron-down"></i></a></li>
-								<li><a href="#">Строительство <i class="fa fa-chevron-down"></i></a></li>
-								<li><a href="#">Водоснабжение</a></li>
-								<li><a href="#">Гарантия</a></li>
+							<div class="col-md-4">
+								<div class="news__item">
+									<div class="news__img" style="background-image: url(img/news/1.jpg);">
+										<div class="news__date"><span>05<br>Фев</span></div>
+									</div>
+									<div class="news__title"><a href="#">Интересная стратья №1</a></div>
+									<div class="news__text">
+										Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв.
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-4">
+								<div class="news__item">
+									<div class="news__img" style="background-image: url(img/news/2.jpg);">
+										<div class="news__date"><span>01<br>Фев</span></div>
+									</div>
+									<div class="news__title"><a href="#">Хорошая стратья №2</a></div>
+									<div class="news__text">
+										Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв.
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<div class="news__item">
+									<div class="news__img" style="background-image: url(img/news/3.jpg);">
+										<div class="news__date"><span>25<br>Янв</span></div>
+									</div>
+									<div class="news__title"><a href="#">Главная стратья №3</a></div>
+									<div class="news__text">
+										Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section why-us">
+				<div class="section__title"><h2>Почему именно мы? <p><span><i class="fa fa-square"></i></span></p></h2></div>
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="why-us__item">
+								<img src="img/why-us/icon1.png" alt="">
+								<p class="why-us__caption">Без отселения</p>
+							</div>
+						</div>
+						<div class="col">
+							<div class="why-us__item">
+								<img src="img/why-us/icon2.png" alt="">
+								<p class="why-us__caption">Честная смета</p>
+							</div>
+						</div>
+						<div class="col">
+							<div class="why-us__item">
+								<img src="img/why-us/icon3.png" alt="">
+								<p class="why-us__caption">Доступные цены</p>
+							</div>
+						</div>
+						<div class="col">
+							<div class="why-us__item">
+								<img src="img/why-us/icon4.png" alt="">
+								<p class="why-us__caption">Строго в срок</p>
+							</div>
+						</div>
+					</div>
+					<div class="services d-md-none d-lg-block">
+						<div class="row">
+							<p class="services__title">Выбирай свое направление</p>				
+							<div class="col-lg-4">
+								<div class="services__item">
+									<span>Ремонт квартир</span>
+									<div class="services__img" style="background-image: url(img/services/1.jpg);"></div>
+								</div>
+							</div>
+
+							<div class="col-lg-4">
+								<div class="services__item">
+									<span>Строительство</span>
+									<div class="services__img" style="background-image: url(img/services/2.jpg);"></div>
+								</div>
+							</div>
+
+							<div class="col-lg-4">
+								<div class="services__item">
+									<span>Водоснабжение</span>
+									<div class="services__img" style="background-image: url(img/services/3.jpg);"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>			
+			</section>
+
+			<section class="section section_inverse">
+				<div class="container">
+					<div class="row callback">
+						<div class="col-md-7 callback__form-block">
+							<h3 class="callback__title">Бесплатная консультация и выезд мастера</h3>
+							<p class="callback__caption">Мы свяжемся с вами в течении 1 часа</p>
+							<form action="#" class="callback__form">
+								<input type="text" class="callback__your-name input" placeholder="Ваше имя">
+								<input type="text" class="callback__your-phone input" placeholder="Ваш номер телефона">
+								<input type="submit" class="callback__button button button-white" value="Обратный звонок"> 
+							</form>
+						</div>
+						<div class="col-md-5 callback__info-block">
+							<div class="callback__item">
+								<img src="img/callback_icon/27_7.png" alt="" class="callback__icon">
+								Работаем без выходных 7 дней в неделю
+							</div>
+
+							<div class="callback__item">
+								<img src="img/callback_icon/worker.png" alt="" class="callback__icon">
+								У нас работают опытные бригады мастеров
+							</div>
+
+							<div class="callback__item">
+								<img src="img/callback_icon/rule.png" alt="" class="callback__icon">
+								Бесплатный выезд для замеров на обьект
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+      	</div>
+      	<div id="my-footer">
+      		<footer class="footer">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-4 copyright">© 2006 – 2018 Remont-stroyka-4you.ru</div>
+						<div class="col-md-8">
+							<ul class="footer__menu">
+								<li><a href="#">О компании</a></li>
+								<li><a href="#">Ремонт</a></li>
+								<li><a href="#">Строительство</a></li>
+								<li><a href="#">Конфиденциальность</a></li>
 								<li><a href="#">Контакты</a></li>
 							</ul>
 						</div>
 					</div>
-				</nav>
-				<nav class="second-menu">
-					<div class="container">
-						<div class="row">
-							<ul>
-								<li><a href="#"><i class="fa fa-calculator"></i> Калькулятор</a></li>
-								<li><a href="#"><i class="fa fa-video-camera"></i> Видеонаблюдение</a></li>
-								<li><a href="#"><i class="fa fa-picture-o"></i> Галерея</a></li>
-							</ul>
-						</div>
-					</div>
-				</nav>
-			</div>
-		</div>
-		<div class="slideshow">
-			<div class="owl-carousel slideshow__owl-carousel">
-				
-				<div class="slideshow__item" style="background-image: url(img/slide/1.png)">
-					<div class="slideshow__composition">
-						<div class="container">
-							<div class="row">
-								<div class="col-sm-7">
-									<h2 class="slideshow__title">Делаем ремонт от <span class="color-accent">А</span> до <span class="color-accent">Я</span></h2>
-									<ul class="list-check-circle">
-										<li>Комплекс демонтажных работ</li>
-										<li>Снабжение необходимым материалом</li>
-										<li>Выравнивание поверхности стен, потолков и полов</li>
-										<li>Замена электросистемы</li>
-										<li>Замена водопроводной и канализационной систем</li>
-									</ul>
-
-									<button class="button"><i class="fa fa-calculator"></i> Заказать замеры</button>
-								</div>
-							</div>
-						</div>
-					</div>
 				</div>
+			</footer>
+      	</div>
+	</div>
 
-				<div class="slideshow__item" style="background-image: url(img/slide/3.png)">
-					<div class="slideshow__composition">
-						<div class="container">
-							<div class="row">
-								<div class="col-sm-8">
-									<h2 class="slideshow__title">ремонт под <span class="color-accent">ключ</span> качественно</h2>
-									<ul class="list-check">
-										<li>Комплекс демонтажных работ</li>
-										<li>Снабжение необходимым материалом</li>
-										<li>Выравнивание поверхности стен, потолков и полов</li>
-										<li>Замена электросистемы</li>
-										<li>Замена водопроводной и канализационной систем</li>
-									</ul>
-
-									<button class="button"><i class="fa fa-calculator"></i> Заказать замеры</button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="slideshow__item" style="background-image: url(img/slide/2.png)">
-					<div class="slideshow__composition">
-						<div class="container">
-							<div class="row">
-								<div class="col-sm-8">
-									<h2 class="slideshow__title">Уют и комфорт в <span class="color-accent">доме</span></h2>
-									<ul class="list-check">
-										<li>Комплекс демонтажных работ</li>
-										<li>Снабжение необходимым материалом</li>
-										<li>Выравнивание поверхности стен, потолков и полов</li>
-										<li>Замена электросистемы</li>
-										<li>Замена водопроводной и канализационной систем</li>
-									</ul>
-
-									<button class="button"><i class="fa fa-calculator"></i> Заказать замеры</button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</header>
-
-	<section class="company-figures section">
-		<div class="container">
-			<div class="row">
-				<div class="col"><span class="company-figures__figure">10</span> <span class="company-figures__title">лет</span> <br> успешной работы</div>
-				<div class="col"><span class="company-figures__figure">150</span> <span class="company-figures__title">обьектов</span> <br> более 150 выполненых 
-обьектов</div>
-				<div class="col"><span class="company-figures__figure">80</span> <span class="company-figures__title">парнеров</span> <br> более 80 партнеров и
-поставщиков</div>
-				<div class="col"><span class="company-figures__figure">250 000</span> <span class="company-figures__title">кв.м.</span> <br> выполнено отделочных
-работ</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="container our-company section section_inverse">
-		<div class="section__title"><h2>Наша компания <p><span><i class="fa fa-square"></i></span></p></h2> </div>
-		<div class="our-company__composition">
-			<div class="row">
-				<div class="col offset-md-5">
-					<p class="our-company__title">Remont msk <br> <span>Ремонт и строительство с нуля</span></p>
-					<p>Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</p>
-					<div class="our-company__block-info">
-						<div class="our-company__item">
-							<div class="our-company__icon" style="background-image: url(img/icon/1.png)"></div>
-							<p class="our-company__item-title">Строительство с нуля</p>
-							<p>Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул.</p>
-						</div>
-
-						<div class="our-company__item">
-							<div class="our-company__icon" style="background-image: url(img/icon/2.png)"></div>
-							<p class="our-company__item-title">Планировка квартир</p>
-							<p>Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул.</p>
-						</div>
-
-						<div class="our-company__item">
-							<div class="our-company__icon" style="background-image: url(img/icon/3.png)"></div>
-							<p class="our-company__item-title">Дизайн интерьера</p>
-							<p>Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="gallery section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="gallery__title-img" style="background-image: url(img/gallery/title_img.jpg);">
-						<div class="gallery__triangle">
-							<i class="fa fa-image"></i>
-						</div>
-						<div class="gallery__play popup-gallery">
-							<a href="img/gallery/001.jpg" title="Картинка номер 1" class="gallery__open">
-								<i class="fa fa-play-circle"></i>
-								<p>Галерея</p>
-							</a>
-
-							<div class="gallery__container">
-								<a href="img/gallery/002.jpg" title="Картинка номер 2"></a>
-								<a href="img/gallery/003.jpg" title="Картинка номер 3"></a>
-								<a href="img/gallery/004.jpg" title="Картинка номер 4"></a>
 	
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<p class="gallery__title">Современный ремонт и строительство - это нашь профиль</p>
-					<p>За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).</p>
-					<ul class="list-check">
-						<li>Работаем без предоплаты</li>
-						<li>Бесплатный выезд замерщика</li>
-						<li>Многолетний опыт работы</li>
-					</ul>
-					<div class="row">
-						<div class="col"><button class="button button-white button-block"><i class="fa fa-calculator"></i> Обратный звонок</button></div>
-						<div class="col"><button class="button button-outline button-block"><i class="fa fa-calculator"></i> Видеоотзывы</button></div>
-					</div>
-					
-					
-				</div>
-			</div>
-		</div>
-	</section>
 
-	<section class="section section_inverse">
-		<div class="container">
-			<div class="row callback">
-				<div class="col-md-7 callback__form-block">
-					<h3 class="callback__title">Бесплатная консультация и выезд мастера</h3>
-					<p class="callback__caption">Мы свяжемся с вами в течении 1 часа</p>
-					<form action="#" class="callback__form">
-						<input type="text" class="callback__your-name input" placeholder="Ваше имя">
-						<input type="text" class="callback__your-phone input" placeholder="Ваш номер телефона">
-						<input type="submit" class="callback__button button button-white" value="Обратный звонок"> 
-					</form>
-				</div>
-				<div class="col-md-5 callback__info-block">
-					<div class="callback__item">
-						<img src="img/callback_icon/27_7.png" alt="" class="callback__icon">
-						Работаем без выходных 7 дней в неделю
-					</div>
-
-					<div class="callback__item">
-						<img src="img/callback_icon/worker.png" alt="" class="callback__icon">
-						У нас работают опытные бригады мастеров
-					</div>
-
-					<div class="callback__item">
-						<img src="img/callback_icon/rule.png" alt="" class="callback__icon">
-						Бесплатный выезд для замеров на обьект
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="our-object section">
-		<div class="section__title"><h2>Наша компания <p><span><i class="fa fa-square"></i></span></p></h2></div>
-		<div class="container">
-			<div class="row">
-				<div class="owl-carousel our-object__carousel">
-					<div class="our-object__item">
-						<div class="our-object__item-title">Строительство</div>
-						<div class="our-object__address">Коттедж в Москвоской обл.</div>
-						<div class="our-object__img" style="background-image: url(img/our_object/1.jpg);"></div>
-						<ul class="our-object__list">
-							<li><span class="our-object__list-title">Цена:</span> 3 000 000 руб.</li>
-							<li><span class="our-object__list-title">Площадь:</span> 350 м2</li>
-							<li><span class="our-object__list-title">Время:</span> 22 недели</li>
-						</ul>
-						<a href="#" class="button button-block"><i class="fa fa-search"></i> Подробнее</a>
-					</div>
-
-					<div class="our-object__item">
-						<div class="our-object__item-title">Ремонт</div>
-						<div class="our-object__address">Квартира в г. Москва</div>
-						<div class="our-object__img" style="background-image: url(img/our_object/2.jpg);"></div>
-						<ul class="our-object__list">
-							<li><span class="our-object__list-title">Цена:</span> 700 000 руб.</li>
-							<li><span class="our-object__list-title">Площадь:</span> 90 м2</li>
-							<li><span class="our-object__list-title">Время:</span> 4 недели</li>
-						</ul>
-						<a href="#" class="button button-block"><i class="fa fa-search"></i> Подробнее</a>
-					</div>
-
-					<div class="our-object__item">
-						<div class="our-object__item-title">Строительство</div>
-						<div class="our-object__address">Коттедж в Москвоской обл.</div>
-						<div class="our-object__img" style="background-image: url(img/our_object/3.jpg);"></div>
-						<ul class="our-object__list">
-							<li><span class="our-object__list-title">Цена:</span> 2 400 000 руб.</li>
-							<li><span class="our-object__list-title">Площадь:</span> 300 м2</li>
-							<li><span class="our-object__list-title">Время:</span> 19 недели</li>
-						</ul>
-						<a href="#" class="button button-block"><i class="fa fa-search"></i> Подробнее</a>
-					</div>
-
-					<div class="our-object__item">
-						<div class="our-object__item-title">Ремонт</div>
-						<div class="our-object__address">Квартира в г. Москва</div>
-						<div class="our-object__img" style="background-image: url(img/our_object/2.jpg);"></div>
-						<ul class="our-object__list">
-							<li><span class="our-object__list-title">Цена:</span> 700 000 руб.</li>
-							<li><span class="our-object__list-title">Площадь:</span> 90 м2</li>
-							<li><span class="our-object__list-title">Время:</span> 4 недели</li>
-						</ul>
-						<a href="#" class="button button-block"><i class="fa fa-search"></i> Подробнее</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="section section_inverse">
-		<div class="section__title"><h2>Новости и статьи <p><span><i class="fa fa-square"></i></span></p></h2></div>
-		<div class="container">
-			<div class="news">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="news__item">
-							<div class="news__img" style="background-image: url(img/news/1.jpg);">
-								<div class="news__date"><span>05<br>Фев</span></div>
-							</div>
-							<div class="news__title"><a href="#">Интересная стратья №1</a></div>
-							<div class="news__text">
-								Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв.
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-4">
-						<div class="news__item">
-							<div class="news__img" style="background-image: url(img/news/2.jpg);">
-								<div class="news__date"><span>01<br>Фев</span></div>
-							</div>
-							<div class="news__title"><a href="#">Хорошая стратья №2</a></div>
-							<div class="news__text">
-								Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв.
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="news__item">
-							<div class="news__img" style="background-image: url(img/news/3.jpg);">
-								<div class="news__date"><span>25<br>Янв</span></div>
-							</div>
-							<div class="news__title"><a href="#">Главная стратья №3</a></div>
-							<div class="news__text">
-								Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв.
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="section why-us">
-		<div class="section__title"><h2>Почему именно мы? <p><span><i class="fa fa-square"></i></span></p></h2></div>
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="why-us__item">
-						<img src="img/why-us/icon1.png" alt="">
-						<p class="why-us__caption">Без отселения</p>
-					</div>
-				</div>
-				<div class="col">
-					<div class="why-us__item">
-						<img src="img/why-us/icon2.png" alt="">
-						<p class="why-us__caption">Честная смета</p>
-					</div>
-				</div>
-				<div class="col">
-					<div class="why-us__item">
-						<img src="img/why-us/icon3.png" alt="">
-						<p class="why-us__caption">Доступные цены</p>
-					</div>
-				</div>
-				<div class="col">
-					<div class="why-us__item">
-						<img src="img/why-us/icon4.png" alt="">
-						<p class="why-us__caption">Строго в срок</p>
-					</div>
-				</div>
-			</div>
-			<div class="services">
-				<div class="row">
-					<p class="services__title">Выбирай свое направление</p>				
-					<div class="col-md-4">
-						<div class="services__item">
-							<span>Ремонт квартир</span>
-							<div class="services__img" style="background-image: url(img/services/1.jpg);"></div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="services__item">
-							<span>Строительство</span>
-							<div class="services__img" style="background-image: url(img/services/2.jpg);"></div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="services__item">
-							<span>Водоснабжение</span>
-							<div class="services__img" style="background-image: url(img/services/3.jpg);"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>			
-	</section>
-
-	<section class="section section_inverse">
-		<div class="container">
-			<div class="row callback">
-				<div class="col-md-7 callback__form-block">
-					<h3 class="callback__title">Бесплатная консультация и выезд мастера</h3>
-					<p class="callback__caption">Мы свяжемся с вами в течении 1 часа</p>
-					<form action="#" class="callback__form">
-						<input type="text" class="callback__your-name input" placeholder="Ваше имя">
-						<input type="text" class="callback__your-phone input" placeholder="Ваш номер телефона">
-						<input type="submit" class="callback__button button button-white" value="Обратный звонок"> 
-					</form>
-				</div>
-				<div class="col-md-5 callback__info-block">
-					<div class="callback__item">
-						<img src="img/callback_icon/27_7.png" alt="" class="callback__icon">
-						Работаем без выходных 7 дней в неделю
-					</div>
-
-					<div class="callback__item">
-						<img src="img/callback_icon/worker.png" alt="" class="callback__icon">
-						У нас работают опытные бригады мастеров
-					</div>
-
-					<div class="callback__item">
-						<img src="img/callback_icon/rule.png" alt="" class="callback__icon">
-						Бесплатный выезд для замеров на обьект
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<footer class="footer">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-md-4 copyright">© 2006 – 2018 Remont-stroyka-4you.ru</div>
-				<div class="col-md-8">
-					<ul class="footer__menu">
-						<li><a href="#">О компании</a></li>
-						<li><a href="#">Ремонт</a></li>
-						<li><a href="#">Строительство</a></li>
-						<li><a href="#">Конфиденциальность</a></li>
-						<li><a href="#">Контакты</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-	<!-- Modal structure -->
+<!-- Modal structure -->
 <div id="order_measure">
     Заказать замеры
 </div>
